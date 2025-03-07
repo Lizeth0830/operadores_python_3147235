@@ -22,3 +22,9 @@ op3 = False
 op4 = True
 resultado = not op1 (op2 or op3 and not op1) and not op4
 print(resultado)
+a=6
+b=3
+c=7
+d=4
+e=5
+resultado = not (a+b>c/d) or e*2!=d+c and not (a<b)
